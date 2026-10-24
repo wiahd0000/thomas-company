@@ -177,7 +177,7 @@ h6{
 
 .servic-cart{
  margin-top: 2.5rem;
-  /* width: 100%; */
+  width: auto;
   height: auto;
   padding: 1rem 4rem;
  background-color: rgb(227, 227, 236);
@@ -260,6 +260,14 @@ color: white;
 /* media query section */
 @media (max-width:900px) {
 
+  .home-text{
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+
+
   .header-container{
     position: relative;
   }
@@ -292,9 +300,24 @@ flex-direction: column;
   align-items: center;
 }
 
+.about-cart{
+  width: 250px;
+padding: 2rem;
+cursor: pointer;
+}
+
+
+
+
+
+
 /* service section */
 .service{
   flex-direction: column;
+}
+
+.servic-cart p{
+  font-size: 1.4rem;
 }
 
 /* contact section */
