@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.header-container{
+  width: 100%;
+  display: flex;
+ justify-content: space-between;
+ padding: 1.2rem 4rem;
+ align-items: center;
+ box-shadow: 1px 2px 1px rgb(167, 155, 155);
+ background-color: rgb(32, 32, 131);
+}
+
+.logo img{
+  width: 30px;
+  border-radius: 50%;
+}
+
+ul{
+  display: flex;
+  gap: 2rem;
+}
+
+ul a{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+
+ul a:hover{
+  background-color: rgb(223, 191, 11);
+  padding: 0.4rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+span a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.burge{
+  display: none;
+}
+
+/* about section */
+.home{
+   width: 100%;
+  min-height: 60vh;
+  background: linear-gradient(rgba(160, 143, 150, 0.60), 
+    rgba(160, 143, 140, 0.60)) 
+  
+ , url("https://plus.unsplash.com/premium_photo-1661340695541-ee1ca7efedd0?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+ background-position: center;
+ background-size: cover;
+ background-repeat: none;
+}
+
+h2{
+  text-align: center;
+  padding: 2rem 4rem;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.home-container span{
+  color: orange;
+}
+
+.home-text{
+  padding: 2rem 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: whitesmoke;
+}
+
+/* about section */
+
+.about-container{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about{
+  width: 100%;
+  min-height: 60vh;
+background: linear-gradient(rgba(5, 5, 112, 0.6), rgba(6, 4, 122, 0.945));
+padding: 2rem 4rem;
+}
+ 
+h3{
+  padding: 2rem 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.about-cart h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+
+
+.about-cart{
+  width: 350px;
+  border: 2px solid white;
+height: auto;
+padding: 2rem;
+cursor: pointer;
+}
+
+.about-cart:hover{
+  background-color: rgb(48, 18, 18);
+}
+
+.about-cart p{
+color: rgb(209, 196, 196);
+text-align: center;
+font-size: 1.1rem;
+margin-top: 1.5rem;
+}
+
+
+.about-cart h5{
+  text-align: center;
+  font-size: 2rem;
+  background-color: orange;
+width: 50px;
+ border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  box-shadow: 1px 2px 2px rgb(216, 208, 208);
+}
+
+.about-cart h5:hover{
+background-color: blue;
+color: orange;
+}
+
+/* service setion */
+.service{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 2rem 4rem;
+  background-color: whitesmoke;
+}
+
+.service h3{
+  color: orange
+}
+
+h6{
+  font-size: 2rem;
+  color: rgb(157, 157, 206);
+}
+
+
+
+.servic-cart{
+ margin-top: 2.5rem;
+  /* width: 100%; */
+  height: auto;
+  padding: 1rem 4rem;
+ background-color: rgb(227, 227, 236);
+  box-shadow: 2px 1px 2px rgb(236, 208, 208);
+  border-radius: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.servic-cart:hover{
+background-color: rgb(10, 10, 75);
+transform: scale(1.05);
+color: white;
+}
+
+.servic-cart p{
+  font-size: 2rem;
+}
+
+/* contact section */
+.footer-container{
+  width: 100%;
+  background-color: rgb(10, 10, 75);
+  height: auto;
+  padding: 2rem 4rem;
+}
+
+.contact-title{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-title:hover{
+  color: white;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+  justify-items: center;
+}
+
+.contact-left span{
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.contact-container p{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contact-right span{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.last{
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+
+
+/* about section ending */
+
+/* media query section */
+@media (max-width:900px) {
+
+  .header-container{
+    position: relative;
+  }
+  ul{
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+    gap: 0.2rem;
+    top: 90px;
+    text-align: center;
+    background-color: rgb(2, 2, 22);
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+  }
+
+  .burge{
+    display: flex;
+  }
+
+  ul.active{
+    display: none;
+  }
+
+  /* about section */
+  .about-container{
+flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* service section */
+.service{
+  flex-direction: column;
+}
+
+/* contact section */
+.contact-container{
+  flex-direction: column;
+  text-align: center;
+}
+}
