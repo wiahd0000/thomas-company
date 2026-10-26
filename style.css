@@ -24,7 +24,7 @@ html{
 }
 
 .logo img{
-  width: 60px;
+  width: 40px;
   border-radius: 50%;
   display: block;
 }
@@ -37,7 +37,7 @@ ul{
 
 span i{
   /* color: red; */
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 ul a{
@@ -83,7 +83,7 @@ h2{
   text-align: center;
   padding: 2rem 4rem;
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   padding-top: 10rem;
 }
@@ -100,13 +100,14 @@ h2{
 .home-text{
   padding: 2rem 4rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: whitesmoke;
 }
 
 /* about section */
 
 .about-container{
+  width: 100%;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -138,7 +139,7 @@ h3{
 
 
 .about-cart{
-  width: 350px;
+  width: 400px;
   border: 2px solid white;
 height: auto;
 padding: 2rem;
@@ -152,7 +153,7 @@ cursor: pointer;
 .about-cart p{
 color: rgb(209, 196, 196);
 text-align: center;
-font-size: 1.1rem;
+font-size: 1.3rem;
 margin-top: 1.5rem;
 }
 
@@ -187,7 +188,7 @@ color: orange;
 }
 
 h6{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(157, 157, 206);
 }
 
@@ -212,7 +213,7 @@ color: white;
 }
 
 .servic-cart p{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* contact section */
@@ -226,7 +227,7 @@ color: white;
 
 .contact-title{
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -250,7 +251,7 @@ color: white;
 .contact-left span{
   color: white;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -261,7 +262,7 @@ color: white;
 
 .contact-right span{
   color: white;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -286,9 +287,21 @@ color: white;
   .home-text{
   padding: 2rem;
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
 }
 
+h2{
+  font-size: 1.6rem;
+}
+
+h3{
+  font-size: 1.3rem;
+  padding-bottom: 2px;
+}
+
+h6{
+  font-size: 1.2rem;
+}
 
 
   .header-container{
@@ -305,15 +318,22 @@ color: white;
     position: absolute;
     left: 0px;
     gap: 0.2rem;
-    top: 112px;
+    top: 70px;
     text-align: center;
     background-color: rgb(2, 2, 22);
     padding: 1rem 0rem;
-    border-radius: 2rem;
-    width: 100%;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+    width: 40%;
     box-shadow: 2px 1px 2px rgb(83, 78, 78);
     justify-content: center;
-    height: 400px;
+    height: 300px;
+    gap: 1.2rem;
+  }
+
+  ul a{
+    font-size: 1.8rem;
+   
   }
 
   .burge{
@@ -337,8 +357,7 @@ flex-direction: column;
 }
 
 .about-cart{
-  width: 250px;
-padding: 2rem;
+  width: 400px;
 cursor: pointer;
 }
 
@@ -353,7 +372,7 @@ cursor: pointer;
 }
 
 .servic-cart p{
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 /* contact section */
@@ -361,4 +380,24 @@ cursor: pointer;
   flex-direction: column;
   text-align: center;
 }
+
+ .contact-title{
+  font-size: 1rem;
+ }
+
+ .contact-left span{
+  font-size: 1rem;
+ }
+ .contact-left p{
+  font-size: 0.9rem;
+ }
+
+ .contact-right span{
+  font-size: 1.2rem;
+  color: orange;
+ }
+
+ .contact-right p{
+  font-size: 0.9rem;
+ }
 }
