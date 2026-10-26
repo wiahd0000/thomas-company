@@ -317,18 +317,17 @@ h6{
     flex-direction: column;
     position: absolute;
     left: 0px;
-    gap: 0.2rem;
     top: 70px;
     text-align: center;
     background-color: rgb(2, 2, 22);
     padding: 1rem 0rem;
   border-bottom-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
-    width: 50%;
+    width: 40%;
     box-shadow: 2px 1px 2px rgb(83, 78, 78);
     justify-content: center;
-    height: 300px;
-    gap: 1.2rem;
+    height: 250px;
+    gap: 0.3rem;
   }
 
   ul a{
@@ -357,7 +356,7 @@ flex-direction: column;
 }
 
 .about-cart{
-  width: 350px;
+  width: 300px;
 cursor: pointer;
 }
 
