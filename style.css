@@ -294,13 +294,19 @@ h2{
   font-size: 1.6rem;
 }
 
+.about-cart h4{
+  font-size: 1.2rem;
+  
+}
+
+
 h3{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-bottom: 2px;
 }
 
 h6{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 
@@ -316,14 +322,14 @@ h6{
     display: none;
     flex-direction: column;
     position: absolute;
-    left: 0px;
-    top: 70px;
+    left: 20px;
+    top: 80px;
     text-align: center;
     background-color: rgb(2, 2, 22);
     padding: 1rem 0rem;
   border-bottom-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
-    width: 40%;
+    width: 50%;
     box-shadow: 2px 1px 2px rgb(83, 78, 78);
     justify-content: center;
     height: 250px;
@@ -331,7 +337,7 @@ h6{
   }
 
   ul a{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
    
   }
 
@@ -388,7 +394,7 @@ cursor: pointer;
   font-size: 1rem;
  }
  .contact-left p{
-  font-size: 0.9rem;
+  font-size: 0.6rem;
  }
 
  .contact-right span{
@@ -397,6 +403,6 @@ cursor: pointer;
  }
 
  .contact-right p{
-  font-size: 0.9rem;
+  font-size: 0.6rem;
  }
 }
